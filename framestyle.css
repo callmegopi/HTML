@@ -1,0 +1,79 @@
+.mainbox{
+	width: 1000px;
+	height: 900px;
+	border: 5px solid black;
+	margin: 0 auto;
+	box-sizing: border-box;
+	text-align: center;
+}
+.header{
+	width: 970px;
+	height: 100px;
+	border: 3px solid black;
+	margin: 10px;
+	text-align: left;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.content{
+	width: 970px;
+	height:250px;
+	border: 3px solid black;
+	margin: 10px;
+	box-sizing: border-box;
+}
+.featurebox{
+	width: 250px;
+	height: 200px;
+	border: 4px solid black;
+	margin: 10px;
+	text-align: center;
+	padding: 5px;
+	float: left;
+}
+.lb1{
+	width: 40%;
+	height: 120px;
+	border: 3px solid black;
+	margin: 10px;
+	padding: 5px;
+	float: left;	
+	text-align: left;
+}
+.rb1{
+	width: 40%;
+	height: 120px;
+	border: 3px solid black;
+	margin: 10px;
+	padding: 5px;
+	float: right;
+	text-align: left;
+}
+.lb2{
+	width: 40%;
+	height: 120px;
+	border: 3px solid black;
+	margin: 10px;
+	padding: 5px;
+	float: left;
+	text-align: left;
+}
+.rb2{
+	width: 40%;
+	height: 120px;
+	border: 3px solid black;
+	margin: 10px;
+	padding: 5px;
+	float: right;
+	text-align: left;
+}
+.footer{
+	width: 970px;
+	height: 150px;
+	border: 3px solid black;
+	margin: 10px;
+	padding: 5px;
+	float: left;
+	text-align: end;
+	box-sizing: border-box;
+}
