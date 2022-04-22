@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+#wrapper{
+    width: 750px;
+    height: 150px;
+    background:gray;
+    margin: 0;
+    padding-top: 10px;
+}
+h2{
+    text-align: center;
+    color: black !important;
+}
+#content{
+    width: 750px;
+    background: lightslategray;
+}
+#leftbox{
+    width: 30%;
+    height: 200px;
+    background: yellowgreen;
+}
+#rightbox{
+    width: 70%;
+    height: 200px;
+    background: pink;
