@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>float dispaly</title>
+        <style>
+            #main{
+                background: red;
+                color: black;
+                padding: 2px;     
+            }
+            #parent{
+                background: orange;
+                padding: 2px;  
+                position: relative;  
+                /* position relative */
+            }
+            #footer{
+                background: black;
+                color: aliceblue;
+                padding: 2px;
+            }
+            #main h2{
+                position: fixed;
+                /* position fixed */
+            }
+            #parent h2{
+                position: absolute;
+                top: 20px;  
+                /* position absolute */             
+            }
+            #footer h2{
+                position: relative;
+                bottom: 0px;
+                /* position relative */
+            }
+          
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <h2 style="background: grey; color: white; text-align: center;">I AM HEADING BELOW PARAGRAPH-1</h2>
+            <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+            <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+            <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+        </div>    
+      <div id="parent">
+                <h2 style="background:grey; color: white; text-align: center;">I am Heading Below the Paragraph-2</h2>
+                 <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+         </div>
+     <div id="footer">
+            <H2 style="background:grey; color:white; text-align:center">I AM HEADING BELOW PARAGRAPH-3</H2>
+            <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+         </div>
+    </body>
+</html>
